@@ -1,0 +1,19 @@
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+[commit]
+	gpgsign = true
+[user]
+	signingkey =
+	name = Robert Waffen
+	email = 
+[safe]
+	directory = /opt/puppetlabs/pdk/share/cache/pdk-templates.git
+[init]
+	defaultBranch = main
+[pull]
+	prune = true
+
+[fetch]
+	prune = true
